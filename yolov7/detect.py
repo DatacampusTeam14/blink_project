@@ -209,9 +209,11 @@ def detect(save_img=False):
                         draw_text(im0, 'Warning', 0, 120, 0, 255, 255, 255, 0, 0, True, 1)
 
                 cv2.imshow(str(p), im0)
-                if cv2.waitKey(1) == ord('q') or cv2.waitKey(1) == ord('Q'):
+                if run_time >= 90:
                     break
-                #cv2.waitKey(1)  # 1 millisecond
+
+                if cv2.waitKey(1) == ord('q'):
+                    break
 
             print('current time: ', f'{terminate_time-t0:.2f}', 'sec', '   | open eye: ', oe_cnt, '   | closed eye: ', ce_cnt, '   | blink_per_minute: ', f'{bpm_com:.2f}')
 
