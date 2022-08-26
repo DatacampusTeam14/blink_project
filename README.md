@@ -8,6 +8,43 @@
 
 
 
+
+# Data Collection
+
+<br/>
+
++ Web Crawling
+
++ [cew dataset](http://parnec.nuaa.edu.cn/_upload/tpl/02/db/731/template731/pages/xtan/ClosedEyeDatabases.html)
++ 
+
+# Data Preprocessing
+
+<br/>
+
+
+
+# Model
+
+
+
+<br/>
+
+# Dev Tool
+
++ LabelImg
++ QTDesigner
+
+<br/>
+
++ PyCharm
++ VsCode
+
+<br/>
+
++ Mediapipe
++ Yolo v7
+
 <br/>
 
 # Developer
@@ -55,38 +92,3 @@
 </div>
 
 <br/>
-
-
-
-# Data Collection
-
-<br/>
-
-
-
-# Data Preprocessing
-
-<br/>
-
-
-
-# Model
-
-
-
-<br/>
-
-# Dev Tool
-
-+ LabelImg
-+ QTDesigner
-
-<br/>
-
-+ PyCharm
-+ VsCode
-
-<br/>
-
-+ Mediapipe
-+ Yolo v7
