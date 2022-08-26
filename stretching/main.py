@@ -224,7 +224,7 @@ with map_face_mesh.FaceMesh(min_detection_confidence=0.5, min_tracking_confidenc
             mesh_coords = landmarksDetection(frame, results, False)
             ratio = blinkRatio(frame, mesh_coords, RIGHT_EYE, LEFT_EYE)
 
-            if ratio > 5.5:
+            if ratio > 7.5:
                 CEF_COUNTER += 1
             else:
                 if CEF_COUNTER > CLOSED_EYES_FRAME:

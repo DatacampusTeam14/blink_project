@@ -1,3 +1,4 @@
+# 이미지 딥러닝 학습과 패턴인식을 통한 눈 피로도 측정  
 
 <div align="center">
   <img src="./src/icon.png" width="400">
@@ -5,9 +6,6 @@
     깜빡 - We take care of your eye health
   <br>
 </div>
-
-
-
 
 # Data Collection
 
