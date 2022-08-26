@@ -43,6 +43,12 @@ example 2 : wearing sunglasses
   </div>
 <br/>
 
+example 3 : covering eyes
+  <div align="center">
+    <img src="./src/removeImg3.jpg" width="200">
+  </div>
+<br/>
+
 # Data Augmentation
 + [Augmentation](https://github.com/DatacampusTeam14/blink_project/tree/master/augmentation)
 

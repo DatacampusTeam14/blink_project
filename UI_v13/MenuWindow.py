@@ -19,6 +19,7 @@ import sys
 import glob
 import makeGraph
 import DevelopersWindow
+import ProductWindow
 
 path_result = "C:/Users/choi/PycharmProjects/yolo7/blinkResult/"
 class menuwindow(QMainWindow):
@@ -97,19 +98,19 @@ class menuwindow(QMainWindow):
         self.label.setText("")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
-        self.BTN_Helathcare = QtWidgets.QPushButton(Form)
-        self.BTN_Helathcare.setGeometry(QtCore.QRect(850, 690, 150, 150))
+        self.BTN_ProductWindow = QtWidgets.QPushButton(Form)
+        self.BTN_ProductWindow.setGeometry(QtCore.QRect(850, 690, 150, 150))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.BTN_Helathcare.sizePolicy().hasHeightForWidth())
-        self.BTN_Helathcare.setSizePolicy(sizePolicy)
-        self.BTN_Helathcare.setText("")
+        sizePolicy.setHeightForWidth(self.BTN_ProductWindow.sizePolicy().hasHeightForWidth())
+        self.BTN_ProductWindow.setSizePolicy(sizePolicy)
+        self.BTN_ProductWindow.setText("")
         icon4 = QtGui.QIcon()
         icon4.addPixmap(QtGui.QPixmap("./images/icon_Recommended_item.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.BTN_Helathcare.setIcon(icon4)
-        self.BTN_Helathcare.setIconSize(QtCore.QSize(100, 100))
-        self.BTN_Helathcare.setObjectName("BTN_Helathcare")
+        self.BTN_ProductWindow.setIcon(icon4)
+        self.BTN_ProductWindow.setIconSize(QtCore.QSize(100, 100))
+        self.BTN_ProductWindow.setObjectName("BTN_ProductWindow")
         self.label_2 = QtWidgets.QLabel(Form)
         self.label_2.setGeometry(QtCore.QRect(130, 850, 101, 41))
         font = QtGui.QFont()
@@ -227,7 +228,7 @@ class menuwindow(QMainWindow):
         self.BTN_HealthcareWindow.raise_()
         self.BTN_cvWindow.raise_()
         self.BTN_ResultWindow.raise_()
-        self.BTN_Helathcare.raise_()
+        self.BTN_ProductWindow.raise_()
         self.label_2.raise_()
         self.label_4.raise_()
         self.label_5.raise_()
@@ -246,6 +247,7 @@ class menuwindow(QMainWindow):
         self.BTN_HealthcareWindow.clicked.connect(self.Go_to_HealthcareWindow)
         self.BTN_Developers.clicked.connect(self.Go_to_DevelopersWindow)
         self.BTN_ResultWindow.clicked.connect(self.Go_to_ResultWindow)
+        self.BTN_ProductWindow.clicked.connect(self.Go_to_ProductWindow)
         QtCore.QMetaObject.connectSlotsByName(self)
 
     def retranslateUi(self, Form):
@@ -292,6 +294,11 @@ class menuwindow(QMainWindow):
     def Go_to_ResultWindow(self):
         self.close()                     
         self.rs = ResultWindow.ResultWindow()
+        self.rs.show()
+
+    def Go_to_ProductWindow(self):
+        self.close()
+        self.rs = ProductWindow.Ui_Form()
         self.rs.show()
 
     def Quit(self):
