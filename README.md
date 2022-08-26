@@ -27,6 +27,7 @@
 
 + [LabelImg](https://github.com/heartexlabs/labelImg)
 
+
 <br/>
 
 # Data Augmentation
@@ -34,10 +35,17 @@
 
 
 # Model
++ Improve model performance
 
+![improve model perfomance](./src/model.PNG)
 
 
 <br/>
+
+# Service preview
+
+<br/>
+
 
 # Dev Tool
 
