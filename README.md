@@ -26,13 +26,26 @@
 # Data Preprocessing
 
 + [LabelImg](https://github.com/heartexlabs/labelImg)
+<div align="center">
+  <img src="./src/boundingbox.png" width="400">
+</div>
 
++ Data Cleaning
 
+example 1 : low pixel
+<div align="center">
+  <img src="./src/removeImg1.png" width="200">
+</div>
+
+example 2 : wearing sunglasses
+  <div align="center">
+    <img src="./src/removeImg2.jpg" width="200">
+  </div>
 <br/>
 
 # Data Augmentation
 + [Augmentation](https://github.com/DatacampusTeam14/blink_project/tree/master/augmentation)
-q
+
 <br/>
 
 # Model
