@@ -37,7 +37,7 @@
 # Model
 + Improve model performance
 
-![improve model perfomance](./src/model.PNG)
+![improve model perfomance](./src/model.png)
 
 
 <br/>
