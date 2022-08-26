@@ -70,9 +70,9 @@ example 3 : covering eyes
 
 * [DetectWindow](https://github.com/DatacampusTeam14/blink_project/blob/master/yolov7/detect.py)
 <div align="center">
-  <img src="./src/cap1.png" width="300">
-  <img src="./src/cap2.png" width="300">
-  <img src="./src/cap3.png" width="300">
+  <img src="./src/cap1.png" width="200">
+  <img src="./src/cap2.png" width="200">
+  <img src="./src/cap3.png" width="200">
 </div>
 
 * [ListWindow](https://github.com/DatacampusTeam14/blink_project/blob/master/UI_v13/ResultWindow.py)
