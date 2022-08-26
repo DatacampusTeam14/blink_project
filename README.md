@@ -32,7 +32,8 @@
 
 # Data Augmentation
 + [Augmentation](https://github.com/DatacampusTeam14/blink_project/tree/master/augmentation)
-
+q
+<br/>
 
 # Model
 + Improve model performance
@@ -43,9 +44,19 @@
 
 <br/>
 
-# Service preview
+# Service Preview
+* IntroWindow
+<div align="center"><img src="./src/intro.png" width="600"></div>
+
+* MainWindow
+<div align="center"><img src="./src/main.jpg" width="600"></div>
+
+* ResultWindow
+<div align="center"><img src="./src/result.png" width="600"></div>
 
 <br/>
+
+
 
 
 # Dev Tool
