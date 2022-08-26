@@ -37,8 +37,9 @@
 # Model
 + Improve model performance
 
-![improve model perfomance](./src/model.png)
-
+<div align="center">
+  <img src="./src/model.png" width="400">
+</div>
 
 <br/>
 
