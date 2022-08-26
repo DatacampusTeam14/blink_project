@@ -30,6 +30,8 @@
 <br/>
 
 # Data Augmentation
++ [Augmentation](https://github.com/DatacampusTeam14/blink_project/tree/master/augmentation)
+
 
 # Model
 
