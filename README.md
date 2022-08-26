@@ -38,7 +38,7 @@
 + Improve model performance
 
 <div align="center">
-  <img src="./src/model.png" width="400">
+  <img src="./src/model.png" width="800">
 </div>
 
 <br/>
